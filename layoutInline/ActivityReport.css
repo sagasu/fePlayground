@@ -78,7 +78,7 @@
     text-align: center;
 }
 
-.gantt-td{width: 800px; }
+.gantt-td{width: 800px;display: flex; }
 
 .gantt-div {background-color: blue; color: azure; border-color: black; border-style: solid; border-width: 3px; }
 
@@ -86,6 +86,6 @@
 
 .area-col { width: 100px; }
 
-.gantt-header-col { width: 500px; }
+.gantt-header-col { width: 500px;display: flex; }
 
 tbody > tr > td:nth-child(5) { text-align: center; }

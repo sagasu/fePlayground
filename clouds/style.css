@@ -8,9 +8,9 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(notiCut.png);
+    background: url(notiCut2.png);
     background-size: cover;
-    /* background-position: bottom; */
+    background-position: bottom;
 }
 .bottom-blend {
     background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, .1) 40%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, 1) 100%) repeat scroll 0 0;
@@ -19,6 +19,13 @@
     height: 200px;
 }
 
+.song-header{
+    font-size: 4vw;
+}
+
+.song {
+    font-size: 2vw;
+}
 
 .banner .clouds{
     position: absolute;

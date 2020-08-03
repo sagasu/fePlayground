@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="banner">
+    <div class="banner" ondblclick="showMoreSong()">
         
         <div class="clouds">
             <img src="cloud1.png" style="--i:1;">
@@ -27,16 +27,33 @@
             <br>He's just a poor dog from a poor family
             <br>Spare him his life from this monstrosity
             <br>Easy come, easy go, will you let me go?
-            <br>Bismillah! No, we will not let you go
-            <br>(Let him go) Bismillah! We will not let you go
-            <br>(Let him go) Bismillah! We will not let you go
-            <br>(Let me go) Will not let you go
-            <br>(Let me go) Will not let you go
-            <br>(Never, never, never, never let me go) Ah
-            <br>No, no, no, no, no, no, no
-            <br>(Oh, mamma mia, mamma mia) Mamma mia, let me go
-            <br>Beelzebub has a devil put aside for me, for me, for me!
+            <span id="hidden-song" class="hidden-song">
+                <br>Bismillah! No, we will not let you go
+                <br>(Let him go) Bismillah! We will not let you go
+                <br>(Let him go) Bismillah! We will not let you go
+                <br>(Let me go) Will not let you go
+                <br>(Let me go) Will not let you go
+                <br>(Never, never, never, never let me go) Ah
+                <br>No, no, no, no, no, no, no
+                <br>(Oh, mamma mia, mamma mia) Mamma mia, let me go
+                <br>Beelzebub has a devil put aside for me, for me, for me!
+            </span>
         </p>
     </section>
+
+    <script>
+        let isHidden = true;
+        function showMoreSong(){
+            let hs = document.getElementById('hidden-song');
+            if(isHidden){
+                isHidden = false;
+                hs.style.display = 'block';
+            }else{
+                isHidden = true;
+                hs.style.display = 'none';
+            }
+            
+        }
+    </script>
 </body>
 </html>

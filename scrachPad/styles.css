@@ -10,5 +10,5 @@
 }
 
 @media screen and ( max-width: 600px ) {
-    .scratch { height: 40vh; }
+    .scratch canvas{ height: 40vh; }
 }

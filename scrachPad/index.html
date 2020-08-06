@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Moly</title>
+</head>
+<body>
+    <div id="scratch" class="scratch"></div>
+    <!-- <script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script> -->
+        <script src="./jquery-2.2.4.min.js"></script>
+    <script src="./wScratchPad.min.js"></script>
+    <script>
+        $('#scratch').wScratchPad({
+            size        : 75,          // The size of the brush/scratch.
+            bg          : 'Moly.jpg',  // Background (image path or hex color).
+            fg          : '#000',  // Foreground (image path or hex color).
+            realtime    : true,       // Calculates percentage in realitime.
+            scratchDown : null,       // Set scratchDown callback.
+            scratchUp   : null,       // Set scratchUp callback.
+            scratchMove : null,       // Set scratcMove callback.
+            cursor      : 'crosshair' // Set cursor.
+            });
+    </script>
+</body>
+</html>

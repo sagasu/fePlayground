@@ -16,6 +16,22 @@
     align-items: center;
 }
 
+.scene i{
+    position: absolute;
+    top: -250px;
+    background: rgba(255, 255, 255, 0.5);
+    animation: animateStars linear infinite;
+}
+
+@keyframes animateStars{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100vh);
+    }
+}
+
 .scene .rocket{
     position: relative;
     animation: animate 0.2s ease infinite;

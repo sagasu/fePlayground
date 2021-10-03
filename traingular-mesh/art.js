@@ -3,8 +3,8 @@ const MAX_WIDTH = 2*window.innerWidth / 3;
 const DENSITY = 8;
 const GAP = MAX_HEIGHT / DENSITY;
 const RELOAD_TIMEOUT = 3000;
-const STROKE_COLOR = "#00203F";
-const TONES_1 = [[255, 196, 235], [255, 228, 250], [171, 199, 152]];//[[238, 66, 102], [31, 64, 104], [242, 228, 181]];
+const STROKE_COLOR = "#636940";
+const TONES_1 = [[89, 169, 106], [155, 222, 172], [180, 231, 206]];
 const TONES_2 = [[37, 106, 220], [31, 64, 104], [169, 251, 215]];
 const MONOCHROME = new Array(10).fill(0).map((_, i) => [i*24, i*25, i*26]);
 

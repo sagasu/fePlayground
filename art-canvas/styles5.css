@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dabd;
+    height: 100%;
+    width: 100%;
+}
+
+.border {
+    margin-top: 10%;
+    /* height: 100%;
+    width: 100%; */
+    background-color:white;
+    border: 10px solid;
+    box-shadow: -5px 5px 5px grey;
+    padding:30px;
+}
+
+/* .art {
+    background-color: green;
+    width: 100%;
+    height: 100%;
+} */
